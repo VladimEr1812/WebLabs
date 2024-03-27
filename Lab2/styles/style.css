@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+.main-header {
+    color:darkgreen;
+}
+
+.header-block {
+    background-color: blue;
+}
+
+.header-block__main-header {
+    font-size: 60px;
+    text-align: center;
+}
+
+.main-information__first-block_header {
+    color: rgb(50, 165, 42);
+}
