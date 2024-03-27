@@ -145,11 +145,11 @@ p {
 }
 
 .background-image {
-    background-image: url('sources/img/mainS.jpg'); /* Путь к вашей прозрачной картинке */
+    background-image: url('sources/img/mainS.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 100px; /* Добавляем отступы сверху и снизу */
+    padding: 100px;
 }
 
 .services__list {
@@ -204,16 +204,16 @@ th, td {
 }
 
 th {
-    background-color: #333; /* Темнее фон для заголовка */
-    color: white; /* Белый цвет текста */
+    background-color: #333;
+    color: white;
 }
 
 tr:nth-child(odd) {
-    background-color: #f2f2f2; /* Цвет фона для нечетных строк */
+    background-color: #f2f2f2;
 }
 
 tr:nth-child(even) {
-    background-color: #ddd; /* Цвет фона для четных строк */
+    background-color: #ddd;
 }
 
 /* Стили для кастомной таблицы*/
@@ -274,15 +274,15 @@ button#refreshReviewsBtn:hover {
 }
 /* Стили для заголовка таблицы */
 .table-title {
-    background-color: #333; /* Темный фон */
-    color: white; /* Белый текст */
-    padding: 10px; /* Поля вокруг текста */
-    font-size: 24px; /* Размер шрифта */
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
 }
 
 /* Стили для формы */
 #medicalDataForm {
-    width: 50%; /* Ширина формы */
+    width: 50%;
 }
 
 /* Стили для отзывов*/
@@ -320,40 +320,40 @@ button#refreshReviewsBtn:hover {
 
 /* Стили swiper*/
 .swiper-container {
-    width: 80%; /* Ширина галереи */
-    margin: 0 auto; /* Центрирование галереи на странице */
+    width: 80%;
+    margin: 0 auto;
 }
 
 .swiper-slide {
-    background-color: #f9f9f9; /* Цвет фона карточки */
-    padding: 20px; /* Отступы внутри карточки */
-    border-radius: 10px; /* Скругление углов карточки */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-    position: absolute; /* Позиционирование абсолютно */
-    top: 50%; /* Выравнивание по вертикали по центру */
-    transform: translateY(-50%); /* Смещение на половину высоты элемента вверх */
-    width: 40px; /* Ширина кнопок навигации */
-    height: 40px; /* Высота кнопок навигации */
-    background-color: rgba(255, 255, 255, 0.5); /* Прозрачный фон */
-    border-radius: 50%; /* Круглые углы */
-    cursor: pointer; /* Курсор при наведении */
-    z-index: 10; /* Перемещаем кнопки навигации поверх изображений */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
 }
 
 .swiper-button-next {
-    right: 10px; /* Кнопка "вперед" располагается справа */
+    right: 10px;
 }
 
 .swiper-button-prev {
-    left: 10px; /* Кнопка "назад" располагается слева */
+    left: 10px;
 }
 
 .doctor-image {
-    width: auto; /* Ширина изображения врача */
-    height: 300px; /* Автоматическая высота изображения */
-    margin-bottom: 10px; /* Отступ снизу */
+    width: auto;
+    height: 300px;
+    margin-bottom: 10px;
 }
